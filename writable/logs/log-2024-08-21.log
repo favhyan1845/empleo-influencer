@@ -1,0 +1,57 @@
+CRITICAL - 2024-08-21 19:29:22 --> Unable to connect to the database.
+#0 C:\wamp64\www\xharla\empleo-influencers\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\wamp64\www\xharla\empleo-influencers\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\wamp64\www\xharla\empleo-influencers\app\Models\UserModel.php(13): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\wamp64\www\xharla\empleo-influencers\app\Controllers\AuthController.php(23): App\Models\UserModel->getUser(Array)
+#4 C:\wamp64\www\xharla\empleo-influencers\system\CodeIgniter.php(918): App\Controllers\AuthController->login()
+#5 C:\wamp64\www\xharla\empleo-influencers\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#6 C:\wamp64\www\xharla\empleo-influencers\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\xharla\empleo-influencers\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-08-21 19:38:53 --> Too few arguments to function CodeIgniter\Database\BaseBuilder::where(), 0 passed in C:\wamp64\www\xharla\empleo-influencers\app\Models\UserModel.php on line 12 and at least 1 expected
+#0 C:\wamp64\www\xharla\empleo-influencers\app\Models\UserModel.php(12): CodeIgniter\Database\BaseBuilder->where()
+#1 C:\wamp64\www\xharla\empleo-influencers\app\Controllers\AuthController.php(23): App\Models\UserModel->getUser('favhyan@gmail.c...')
+#2 C:\wamp64\www\xharla\empleo-influencers\system\CodeIgniter.php(918): App\Controllers\AuthController->login()
+#3 C:\wamp64\www\xharla\empleo-influencers\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#4 C:\wamp64\www\xharla\empleo-influencers\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\xharla\empleo-influencers\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-08-21 19:39:06 --> Illegal string offset 'Email'
+#0 C:\wamp64\www\xharla\empleo-influencers\app\Models\UserModel.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\wamp64\\www\\x...', 14, Array)
+#1 C:\wamp64\www\xharla\empleo-influencers\app\Controllers\AuthController.php(23): App\Models\UserModel->getUser('favhyan@gmail.c...')
+#2 C:\wamp64\www\xharla\empleo-influencers\system\CodeIgniter.php(918): App\Controllers\AuthController->login()
+#3 C:\wamp64\www\xharla\empleo-influencers\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#4 C:\wamp64\www\xharla\empleo-influencers\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\xharla\empleo-influencers\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-08-21 19:40:21 --> Call to a member function where() on string
+#0 C:\wamp64\www\xharla\empleo-influencers\app\Controllers\AuthController.php(23): App\Models\UserModel->getUser('favhyan@gmail.c...')
+#1 C:\wamp64\www\xharla\empleo-influencers\system\CodeIgniter.php(918): App\Controllers\AuthController->login()
+#2 C:\wamp64\www\xharla\empleo-influencers\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#3 C:\wamp64\www\xharla\empleo-influencers\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\xharla\empleo-influencers\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-08-21 19:50:25 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getRowArray()
+#0 C:\wamp64\www\xharla\empleo-influencers\app\Controllers\AuthController.php(23): App\Models\UserModel->getUser(Array)
+#1 C:\wamp64\www\xharla\empleo-influencers\system\CodeIgniter.php(918): App\Controllers\AuthController->login()
+#2 C:\wamp64\www\xharla\empleo-influencers\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#3 C:\wamp64\www\xharla\empleo-influencers\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\xharla\empleo-influencers\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-08-21 19:51:32 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getRowArray()
+#0 C:\wamp64\www\xharla\empleo-influencers\app\Controllers\AuthController.php(23): App\Models\UserModel->getUser('favhyan@gmail.c...')
+#1 C:\wamp64\www\xharla\empleo-influencers\system\CodeIgniter.php(918): App\Controllers\AuthController->login()
+#2 C:\wamp64\www\xharla\empleo-influencers\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#3 C:\wamp64\www\xharla\empleo-influencers\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\xharla\empleo-influencers\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-08-21 20:01:24 --> syntax error, unexpected 'echo' (T_ECHO)
+#0 C:\wamp64\www\xharla\empleo-influencers\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\wamp64\\www\\x...')
+#1 C:\wamp64\www\xharla\empleo-influencers\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\wamp64\www\xharla\empleo-influencers\system\CodeIgniter.php(869): class_exists('\\App\\Controller...', true)
+#5 C:\wamp64\www\xharla\empleo-influencers\system\CodeIgniter.php(394): CodeIgniter\CodeIgniter->startController()
+#6 C:\wamp64\www\xharla\empleo-influencers\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\xharla\empleo-influencers\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
